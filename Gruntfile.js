@@ -239,7 +239,8 @@ module.exports = function (grunt) {
             options: {
               variables: {
                 ember: 'bower_components/ember/ember.js',
-                ember_data: 'bower_components/ember-data/ember-data.js'
+                ember_data: 'bower_components/ember-data/ember-data.js',
+                ember_localstorage: 'bower_components/ember-localstorage-adapter/localstorage_adapter.js'
               }
             },
             files: [
