@@ -1,0 +1,1 @@
+Sprinter.ApplicationAdapter = DS.FixtureAdapter;
