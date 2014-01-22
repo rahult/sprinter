@@ -1,3 +1,9 @@
 <div class="well">
-    Welcome to Yeoman and Ember.js!
+  <ul class="list-group sortable">
+    {{#each item in controller}}
+      <li class="list-group-item item" data-id="{{unbound item.id}}">
+        {{item.title}}
+      </li>
+    {{/each}}
+  </ul>
 </div>
